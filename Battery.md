@@ -57,3 +57,25 @@ Nói chung, các phương pháp được sử dụng để đo điện trở c�
                 R0(SOC)=U1−U0/ΔI
 
 Đề cập đến bài kiểm tra đặc tính công suất xung lai “Sổ tay kiểm tra pin CAR Freedom” (thử nghiệm HPPC) [31], bài viết này áp dụng phương pháp từng bước để thu được điện trở ohmic, điện trở phân cực và điện dung phân cực từ các SOC khác nhau. Cấu hình kiểm tra đặc tính công suất xung lai được hiển thị trong Hình 4.
+
+-------Figure 4. Hybrid pulse power characterization (HPPC) test current profile------
+
+Để thu được ohmic resistance, polarization resistance, và polarization capacitance tại các SOC khác nhau, các thử nghiệm được thực hiện như sau:
+
+(1) Hiệu chỉnh dung lượng pin như mô tả trong Mục 2.3.1.
+
+(2) Sạc đầy pin bằng phương pháp sạc tiêu chuẩn giống như được mô tả trong Phần 2.2.
+
+(3) Thử nghiệm HPPC được thực hiện và sau đó pin được để ở trạng thái mạch hở để nghỉ trong 4 giờ để đạt được trạng thái cân bằng điện hóa và nhiệt [9].
+
+(4) Pin được xả với dòng điện không đổi 2,35 A trong 6 phút và sau đó pin được để ở trạng thái mạch hở để nghỉ trong 4 giờ để đạt được trạng thái cân bằng điện hóa và nhiệt.
+
+(5) Bước (3) và (4) lần lượt được lặp lại tám lần.
+
+(6) Pin được phóng điện với dòng điện không đổi 2,35 A trong 3 phút và sau đó pin được để ở trạng thái mạch hở để nghỉ trong 4 giờ để đạt được trạng thái cân bằng điện hóa và nhiệt.
+
+(7) Thử nghiệm HPPC được thực hiện và sau đó pin được để ở trạng thái mạch hở để nghỉ trong 4 giờ để đạt được trạng thái cân bằng điện hóa và nhiệt.
+
+(8) Bước (6) và (7) lần lượt được lặp lại bốn lần.
+
+Từ các bước thử nghiệm trên, có thể thấy rằng thử nghiệm HPPC có thể được thực hiện cùng với thử nghiệm điện áp mạch hở được mô tả ở Mục 2.3.1. Theo các quy trình thử nghiệm ở trên, có thể thu được đường cong đáp ứng điện áp của pin lithium-ion được kích thích bằng thử nghiệm HPPC ở các SOC khác nhau. Kết quả được thể hiện trong Hình 5. Sau đó, điện trở ohmic ở các SOC khác nhau có thể tính được bằng cách tính Công thức (1). Kết quả được thể hiện ở Hình 6.
